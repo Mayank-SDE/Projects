@@ -1,0 +1,7 @@
+127.0.0.1 - - [13/Feb/2022:04:37:52 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [13/Feb/2022:04:37:53 +0530] "GET /NoteTakerTodoApp/ HTTP/1.1" 200 3007
+0:0:0:0:0:0:0:1 - - [13/Feb/2022:04:37:53 +0530] "GET /NoteTakerTodoApp/css/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Feb/2022:04:37:53 +0530] "GET /NoteTakerTodoApp/img/icon.png HTTP/1.1" 200 28902
+0:0:0:0:0:0:0:1 - - [13/Feb/2022:04:37:57 +0530] "GET /NoteTakerTodoApp/add_notes.jsp HTTP/1.1" 200 3341
+0:0:0:0:0:0:0:1 - - [13/Feb/2022:04:38:34 +0530] "POST /NoteTakerTodoApp/SaveNoteServlet HTTP/1.1" 200 142
+0:0:0:0:0:0:0:1 - - [13/Feb/2022:04:38:36 +0530] "GET /NoteTakerTodoApp/all_notes.jsp HTTP/1.1" 200 4175

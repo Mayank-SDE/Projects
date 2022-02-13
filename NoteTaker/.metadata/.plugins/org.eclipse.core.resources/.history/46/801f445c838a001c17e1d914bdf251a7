@@ -1,0 +1,14 @@
+package com.helper;
+
+import org.hibernate.SessionFactory;
+
+public class FactoryProvider {
+
+	public static SessionFactory factory;
+	
+	//so that we do not need to create the object of Fa
+	public static SessionFactory getFactory()
+	{
+		return factory;
+	}
+}

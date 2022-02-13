@@ -1,0 +1,49 @@
+package com.servlets;
+
+import java.io.IOException;
+import java.util.Date;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.entities.Note;
+import com.helper.FactoryProvider;
+
+public class SaveNoteServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    public SaveNoteServlet() {
+        super();
+    
+    
+    }
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+	try {
+		
+		
+		//we will fetch title content
+		
+		String title=request.getParameter("title");
+		String content=request.getParameter("content");
+		
+		Note note=new Note(title,content,new Date());
+		/*
+		//this will print inside console
+		System.out.println(note.getId()+"   "+note.getTitle());
+		*/
+		
+		//to save hibernate save()
+		FactoryProvider.getFactory().openSession();
+	}	
+	catch(Exception e)
+	{
+		e.printStackTrace();
+	}
+		
+	}
+
+}

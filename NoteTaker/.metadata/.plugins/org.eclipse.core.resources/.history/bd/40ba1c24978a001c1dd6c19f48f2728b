@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Edit your notes</title>
+  <%@ include file="all_js_css.jsp"%>
+ </head>
+<body>
+   <div class="container">
+   
+   <%@ include file="navbar.jsp"%>
+      <br>
+     <h1>This is Edit page</h1>
+     
+     <%
+     int oteId=Integer.parseInt(request.getParameter("note_id").trim());
+     %>
+</div>
+
+</body>
+</html>

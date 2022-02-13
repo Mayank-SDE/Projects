@@ -1,0 +1,9 @@
+package com.xadmin.usermanagement.dao;
+
+public class UserDao {
+
+	private String jdbcUrl="jdbc:mysql://localhost:3306/userdb";
+	private String jdbcUsername="root";
+	private String jdbcPassword="Pinkubabu";
+	private String jdbcDriver="com.mysql.cj.Driver";
+}

@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+/Users/mayankchoudhary/Desktop/Mayank-Projects/TodoAppNoteTakerUsingHibernate/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3349146578.index
+/NoteTakerTodoApp/src/main/resources
+/Users/mayankchoudhary/Desktop/Mayank-Projects/NoteTakerUsingHibernate/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3349146578.index
+/NoteTakerTodoApp/src/main/java
